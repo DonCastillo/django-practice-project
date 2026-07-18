@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-2md%c!+ac%b0du5s@__w_abzpp59kuj5$wlhtivd%4l9ew+059
 DEBUG = True
 
 ALLOWED_HOSTS=["*"]
-
+CSRF_TRUSTED_ORIGINS = ['https://*.cognitiveclass.ai']
 
 # Application definition
 
@@ -102,7 +102,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-CSRF_TRUSTED_ORIGINS = ['https://*.cognitiveclass.ai']
 
 
 # Internationalization
